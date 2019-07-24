@@ -1,10 +1,11 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-music",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "nodemon --watch main.js --exec electron .",
+    "start1": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +18,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^5.0.7"
+    "electron": "^5.0.7",
+    "nodemon": "^1.19.1"
   }
 }
